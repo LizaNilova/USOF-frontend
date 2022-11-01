@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Popins', sans-serif;
+    background: #143026;
+    background: -webkit-linear-gradient(to right, #6faf99, #143026);
+    background: linear-gradient(to right, #548776, #143026);
+    min-height: 100vh;
+  }
+}
